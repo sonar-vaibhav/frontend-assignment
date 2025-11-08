@@ -6,6 +6,7 @@ import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
+// Main landing page
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">

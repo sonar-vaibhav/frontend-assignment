@@ -1,19 +1,22 @@
 import { Button } from "@/components/ui/button";
 import phoneMockup from "@/assets/phone-mockup.jpg";
 
+// Call to action section
 const CTA = () => {
   return (
     <section className="py-16 lg:py-24 px-4">
       <div className="container mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Phone mockup image */}
           <div className="order-2 lg:order-1">
             <img 
               src={phoneMockup} 
-              alt="Mobile app preview" 
+              alt="Mobile app preview showing todo list interface" 
               className="rounded-3xl shadow-2xl w-full"
             />
           </div>
           
+          {/* CTA content */}
           <div className="order-1 lg:order-2">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6">
               Start Organizing Your Life Today

@@ -1,5 +1,6 @@
 import { Layout, Send, Users, MonitorSmartphone } from "lucide-react";
 
+// Features section with feature cards
 const Features = () => {
   const features = [
     {
@@ -31,11 +32,11 @@ const Features = () => {
   return (
     <section id="features" className="py-16 lg:py-24 px-4">
       <div className="container mx-auto max-w-7xl">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary text-center mb-4">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary text-center mb-16">
           Transform Your Productivity with Our<br />Innovative To-Do List Features
         </h2>
         
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12 lg:mt-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
             <div 
               key={index}
@@ -51,8 +52,8 @@ const Features = () => {
                 {feature.title}
               </h3>
               <div className="flex gap-1 mb-3">
-                <div className="h-1 w-8 bg-primary rounded"></div>
-                <div className="h-1 w-8 bg-primary/30 rounded"></div>
+                <div className="h-1 w-8 bg-primary rounded" />
+                <div className="h-1 w-8 bg-primary/30 rounded" />
               </div>
               <p className="text-sm text-muted-foreground">
                 {feature.description}
