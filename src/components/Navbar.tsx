@@ -1,5 +1,5 @@
 import { CheckSquare, Menu, X } from "lucide-react";
-import Button from "@/components/ui/Button.tsx";
+import Button from "@/components/ui/button";
 import { useState } from "react";
 
 const Navbar = () => {
