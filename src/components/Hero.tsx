@@ -3,6 +3,7 @@ import { useState } from "react";
 import Button from "@/components/ui/button";
 import { GetStartedModal } from "@/components/GetStartedModal";
 import heroTestimonial from "@/assets/hero-testimonial.jpg";
+// Hero component
 
 import googleLogo from "@/assets/logo/google.png";
 import facebookLogo from "@/assets/logo/facebook.png";

@@ -3,6 +3,7 @@ import Modal from "@/components/ui/Modal";
 import Button from "@/components/ui/button";
 import Input from "@/components/ui/input";
 import Label from "@/components/ui/label";
+// GetStartedModal component
 import Checkbox from "@/components/ui/checkbox";
 import Radio from "@/components/ui/RadioGroup";
 import heartImage from "@/assets/logo/heart.png";

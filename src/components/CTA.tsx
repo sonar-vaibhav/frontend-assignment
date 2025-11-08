@@ -1,6 +1,7 @@
 import Button from "@/components/ui/button";
 import phoneMockup from "@/assets/phone-mockup.jpg";
 
+// CTA component
 const CTA = () => {
   return (
     <section className="py-16 lg:py-24 px-4">
