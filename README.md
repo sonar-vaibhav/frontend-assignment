@@ -2,6 +2,10 @@
 
 A modern, responsive landing page for a todo list application built with React, TypeScript, and Tailwind CSS. This project features a clean design with interactive components, form validation, and a mobile-first approach.
 
+## 🌐 Live Preview
+
+Check out the live deployment: [https://frontend-assignment-one-sable.vercel.app/](https://frontend-assignment-one-sable.vercel.app/)
+
 ## 🚀 Features
 
 - **Responsive Design** - Fully responsive layout that works seamlessly across desktop, tablet, and mobile devices
