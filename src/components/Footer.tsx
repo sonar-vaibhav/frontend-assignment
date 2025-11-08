@@ -2,6 +2,7 @@ import { CheckSquare } from "lucide-react";
 import Button from "@/components/ui/button";
 import Input from "@/components/ui/input";
 
+// Footer component
 const Footer = () => {
   return (
     <footer className="bg-muted/30 border-t border-border py-16 px-4">
