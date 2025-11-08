@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Modal from "@/components/ui/Modal";
-import Button from "@/components/ui/Button";
-import Input from "@/components/ui/Input";
-import Label from "@/components/ui/Label";
-import Checkbox from "@/components/ui/Checkbox";
+import Button from "@/components/ui/button";
+import Input from "@/components/ui/input";
+import Label from "@/components/ui/label";
+import Checkbox from "@/components/ui/checkbox";
 import Radio from "@/components/ui/RadioGroup";
 import heartImage from "@/assets/logo/heart.png";
 

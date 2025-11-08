@@ -1,5 +1,5 @@
 import { UserFormData } from "./GetStartedModal";
-import Checkbox from "@/components/ui/Checkbox";
+import Checkbox from "@/components/ui/checkbox";
 
 interface UserDataDisplayProps {
   users: UserFormData[];

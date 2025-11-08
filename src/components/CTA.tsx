@@ -1,4 +1,4 @@
-import Button from "@/components/ui/Button";
+import Button from "@/components/ui/button";
 import phoneMockup from "@/assets/phone-mockup.jpg";
 
 const CTA = () => {
