@@ -1,6 +1,5 @@
 import { Layout, Send, Users, MonitorSmartphone } from "lucide-react";
 
-// Features section with feature cards
 const Features = () => {
   const features = [
     {

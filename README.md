@@ -1,73 +1,124 @@
-# Welcome to your Lovable project
+# Todo List Landing Page
 
-## Project info
+A modern, responsive landing page for a todo list application built with React, TypeScript, and Tailwind CSS. This project features a clean design with interactive components, form validation, and a mobile-first approach.
 
-**URL**: https://lovable.dev/projects/210f55b4-135d-42f3-ac7b-f06fb17949bd
+## 🚀 Features
 
-## How can I edit this code?
+- **Responsive Design** - Fully responsive layout that works seamlessly across desktop, tablet, and mobile devices
+- **Interactive Hero Section** - Eye-catching hero with gradient backgrounds and call-to-action buttons
+- **User Registration Modal** - Multi-step form with validation for collecting user information
+- **Feature Showcase** - Highlight key features with icons and descriptions
+- **Testimonials Carousel** - Interactive testimonial slider with navigation controls
+- **Brand Logos** - Animated logo carousel showcasing trusted brands
+- **Modern UI Components** - Custom-built UI components with consistent styling
+- **Form Validation** - Client-side validation for user inputs with error messages
+- **Accessibility** - Semantic HTML and ARIA labels for better accessibility
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **React 18.3** - Modern React with hooks and functional components
+- **TypeScript 5.8** - Type-safe development
+- **Vite 5.4** - Fast build tool and development server
+- **Tailwind CSS 3.4** - Utility-first CSS framework
+- **React Router DOM 6.30** - Client-side routing
+- **Lucide React** - Beautiful, consistent icon library
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/210f55b4-135d-42f3-ac7b-f06fb17949bd) and start prompting.
+## 📋 Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+Before you begin, ensure you have the following installed:
+- Node.js (v18 or higher)
+- npm or yarn package manager
 
-**Use your preferred IDE**
+## 🔧 Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd todo-list-app
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. Install dependencies:
+```bash
+npm install
+```
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+## 📁 Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── assets/              # Images and static assets
+│   ├── logo/           # Brand logos
+│   └── *.jpg           # Hero and testimonial images
+├── components/          # React components
+│   ├── ui/             # Reusable UI components
+│   │   ├── Button.tsx
+│   │   ├── Input.tsx
+│   │   ├── Label.tsx
+│   │   ├── Checkbox.tsx
+│   │   ├── RadioGroup.tsx
+│   │   └── Modal.tsx
+│   ├── Hero.tsx        # Hero section component
+│   ├── Navbar.tsx      # Navigation bar
+│   ├── Features.tsx    # Features section
+│   ├── Testimonials.tsx # Testimonials carousel
+│   ├── CTA.tsx         # Call-to-action section
+│   ├── Footer.tsx      # Footer component
+│   ├── GetStartedModal.tsx  # User registration modal
+│   └── UserDataDisplay.tsx  # Display submitted user data
+├── pages/              # Page components
+│   ├── Index.tsx       # Home page
+│   └── NotFound.tsx    # 404 page
+├── lib/                # Utility functions
+│   └── utils.ts        # Helper functions
+├── App.tsx             # Root component with routing
+├── main.tsx            # Application entry point
+└── index.css           # Global styles and Tailwind imports
 
-## What technologies are used for this project?
+```
 
-This project is built with:
+## 🎨 Key Components
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Hero Section
+- Gradient background with primary brand colors
+- Dual-column layout with feature highlights
+- Call-to-action buttons
+- Testimonial card with overlay effects
 
-## How can I deploy this project?
+### Get Started Modal
+- Multi-field form with validation
+- Input fields: First Name, Last Name, Email
+- Radio buttons for gender selection
+- Checkboxes for language preferences
+- Terms and conditions agreement
+- Success state with confirmation message
 
-Simply open [Lovable](https://lovable.dev/projects/210f55b4-135d-42f3-ac7b-f06fb17949bd) and click on Share -> Publish.
+### Features Section
+- Grid layout showcasing app features
+- Icon-based visual representation
+- Responsive design adapting to screen sizes
 
-## Can I connect a custom domain to my Lovable project?
+### Testimonials
+- Carousel with navigation controls
+- User testimonials with images
+- Smooth transitions between slides
 
-Yes, you can!
+### Footer
+- Newsletter subscription form
+- Social media links
+- Company information and links
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🎨 Design System
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Colors
+- **Primary**: Pink/Red (#FF5A5F)
+- **Secondary**: Dark Blue (#1E293B)
+- **Background**: Light Gray (#F9FAFB)
+- **Accent**: Rose tints for form elements
